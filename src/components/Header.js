@@ -23,7 +23,7 @@ const Header = () => {
                             <h2><Link to='/' className='text-white'>Dev Corner</Link></h2>
                         </div>
                         <div className="col-5">
-                            <div class="input-group">
+                            <div className="input-group">
                                 <input type="text" className="form-control py-2" placeholder="Search Product Here..." aria-label="Search Product Here..." aria-describedby="basic-addon2" />
                                 <span className="input-group-text p-2 px-3" id="basic-addon2"><BsSearch className='fs-6' /></span>
                             </div>
@@ -67,7 +67,7 @@ const Header = () => {
                     <div className="col-12">
                         <div className="menu-bottom d-flex align-item-center gap-30">
                             <div>
-                                <div class="dropdown">
+                                <div className="dropdown">
                                     <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-item-center" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src="images/menu.svg" alt="" /> <span className='me-5 d-inline-block'>Show Category</span>
                                     </button>
@@ -81,7 +81,7 @@ const Header = () => {
                             <div className='menu-links'>
                                 <div className="d-flex align-item-center gap-15 text-white">
                                     <NavLink className='text-white' to='/'>Home</NavLink>
-                                    <NavLink className='text-white' to='/'>Our Store</NavLink>
+                                    <NavLink className='text-white' to='/store'>Our Store</NavLink>
                                     <NavLink className='text-white' to='/'>Blogs</NavLink>
                                     <NavLink className='text-white' to='/contact'>Contact</NavLink>
                                 </div>
