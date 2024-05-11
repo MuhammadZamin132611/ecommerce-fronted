@@ -3,6 +3,7 @@ import BreadCrumb from '../components/BreadCrumb';
 import Meta from '../components/Meta';
 import ReactStars from "react-rating-stars-component";
 import ProductCard from '../components/ProductCard';
+import Colors from '../components/Colors';
 
 
 const OurStore = () => {
@@ -59,22 +60,7 @@ const OurStore = () => {
                                     </div>
                                     <h5 className="sub-title">Colors</h5>
                                     <div>
-                                        <ul className='colors ps-0'>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                        </ul>
+                                        <Colors />
                                     </div>
                                     <h5 className="sub-title">Size</h5>
                                     <div>
@@ -169,7 +155,7 @@ const OurStore = () => {
                             </div>
                             <div className="products-list py-5">
                                 <div className="d-flex gap-10 flex-wrap">
-                                <ProductCard grid={grid}/>
+                                    <ProductCard grid={grid} />
                                 </div>
                             </div>
                         </div>
