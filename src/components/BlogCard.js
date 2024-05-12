@@ -13,7 +13,7 @@ const BlogCard = () => {
                         <p className="date">1 Dec 2022</p>
                         <h5 className="title">A beautiful sunday morning renaissance</h5>
                         <p className="desc"> I can be a React component, multiple React components, or just some text.</p>
-                        <Link to='' className='button'>Read Mode</Link>
+                        <Link to='/single-blogs' className='button'>Read Mode</Link>
                     </div>
                 </div>
             
