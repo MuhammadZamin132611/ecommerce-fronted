@@ -14,6 +14,10 @@ import Forgotpassword from './pages/Forgotpassword';
 import Signup from './pages/Signup';
 import ResetPassword from './pages/ResetPassword';
 import SingleBlock from './pages/SingleBlock';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import RefundPolicy from './pages/RefundPolicy';
+import ShippingPolicy from './pages/ShippingPolicy';
+import TermsAndConditions from './pages/TermsAndConditions';
 function App() {
   return <>
     <BrowserRouter>
@@ -31,6 +35,10 @@ function App() {
           <Route path='forgot-password' element={<Forgotpassword />} />
           <Route path='signup' element={<Signup />} />
           <Route path='reset-password' element={<ResetPassword />} />
+          <Route path='privacy-policy' element={<PrivacyPolicy />} />
+          <Route path='refund-policy' element={<RefundPolicy />} />
+          <Route path='shipping-policy' element={<ShippingPolicy />} />
+          <Route path='term-and-condition' element={<TermsAndConditions />} />
 
         </Route>
       </Routes>
